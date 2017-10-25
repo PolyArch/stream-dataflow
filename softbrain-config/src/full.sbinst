@@ -1,0 +1,133 @@
+#Instruction ConfigName      Latency   NumOperands 
+Add16        Add16           1         2
+Mul16        Mul16           1         2
+Sig16        Sig16           3         2
+
+Add16x4      Add16x4         1         2
+TAdd16x4     TAdd16x4        1         2
+HAdd16x4     HAdd16x4        1         2
+RShf16x4     RShf16x4        1         2
+Sub16x4      Sub16x4         1         2
+Abs16x4      Abs16x4         1         2
+Acc16x4      Acc16x4         1         2
+
+RShf2_16x4   RShf2_16x4      1         2
+RShf4_16x4   RShf4_16x4      1         2
+
+Mul16x4      Mul16x4         1         2
+Div16x4      Div16x4         3         2
+Sig16x4      Sig16x4         3         2
+Red16x4      Red16x4         2         2
+
+Max16x4      Max16x4         1         2
+Min16x4      Min16x4         1         2
+SMax16x4     SMax16x4        1         2
+SMin16x4     SMin16x4        1         2
+RedMax16x4   RedMax16x4      2         2
+RedMin16x4   RedMin16x4      2         2
+RedSMax16x4  RedSMax16x4     2         2
+RedSMin16x4  RedSMin16x4     2         2
+
+DelayFU      DelayFU         0         1
+
+Mul32x2      Mul32x2         1         2
+Add32x2      Add32x2         1         2
+Red32x2      Red32x2         2         2
+RShf32x2     RShf32x2        1         2
+
+Max32x2      Max32x2         1         2
+Min32x2      Min32x2         1         2
+RedMax32x2   RedMax32x2      2         2
+RedMin32x2   RedMin32x2      2         2
+
+Mul64        Mul64           1         2
+Add64        Add64           1         2
+Sub64        Sub64           1         2
+RShf64       RShf64          1         2
+LShf64       LShf64          1         2
+Max64        Max64           1         2
+Min64        Min64           1         2
+Acc64        Acc64           1         2
+
+FAdd32x2     FAdd32x2        1         2
+FRed32x2     FRed32x2        2         2
+FMul32x2     FMul32x2        2         2
+
+FxRelu16x4   FxRelu16x4      1         2
+FxSig16x4    FxSig16x4       3         2
+FxTanh16x4   FxTanh16x4      3         2
+
+FxAdd16x4    FxAdd16x4       1         2
+FxRed16x4    FxRed16x4       2         2
+FxMul16x4    FxMul16x4       1         2
+FxExp16x4    FxExp16x4       3         2
+
+FxMul32x2    FxMul32x2       1         2
+FxAdd32x2    FxAdd32x2       1         2
+FxRed32x2    FxRed32x2       2         2
+
+FAdd64       FAdd64          1         2
+FMul64       FMul64          2         2
+
+Select       Select          1         3
+And          And             1         2
+Or           Or              1         2
+Xor          Xor             1         2
+
+Copy         Copy            1         1
+
+ICmpEQ       ICmpEQ          1         2
+
+# ----- old ones  (no corresponding impl) ----
+
+Switch       Switch          1         8
+
+
+Add          Add             1         2
+Sub          Sub             1         2
+Mul          Mul             1         2
+UDiv         UDiv            1         2
+SDiv         SDiv            1         2
+URem         URem            1         2
+SRem         SRem            1         2
+IMax         IMax            1         2
+IMin         IMin            1         2
+SMax         SMax            1         2
+SMin         SMin            1         2
+
+FAdd         FAdd            3         2
+FSub         FSub            3         2
+FMul         FMul            3         2
+FDiv         FDiv            12        2
+FRem         FRem            12        2
+Sqrt         Sqrt            12        1
+FSin         FSin            24        1
+FCos         FCos            24        1
+FMax         FMax            3         2
+FMin         FMin            3         2
+
+SExt         SExt            1         1
+
+Shl          Shl             1         2
+LShr         LShr            1         2
+AShr         AShr            1         2
+
+PHI          PHI             1         2
+Ternary      Ternary         1         3
+
+ICmpNE       ICmp-NE         1         2
+ICmpUGT      ICmp-UGT        1         2
+ICmpUGE      ICmp-UGE        1         2
+ICmpULT      ICmp-ULT        1         2
+ICmpULE      ICmp-ULE        1         2
+ICmpSGT      ICmp-SGT        1         2
+ICmpSGE      ICmp-SGE        1         2
+ICmpSLT      ICmp-SLT        1         2
+ICmpSLE      ICmp-SLE        1         2
+
+FCmpOEQ      FCmp-OEQ        3         2
+FCmpONE      FCmp-ONE        3         2
+FCmpOGT      FCmp-OGT        3         2
+FCmpOGE      FCmp-OGE        3         2
+FCmpOLT      FCmp-OLT        3         2
+FCmpOLE      FCmp-OLE        3         2

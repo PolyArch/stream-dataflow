@@ -1,0 +1,3 @@
+bfs.dfg dot.dfg long.dfg medium.dfg medium_short.dfg mm_sb.dfg pool2x2l4avg.dfg pool4x4l2avg.dfg pool_simple.dfg red16to1sig.dfg red16to1sigx2.dfg red16to1sigx2-simple.dfg red32to1sig.dfg red8to1sig.dfg spmv.dfg stencil.dfg vadd4.dfg vadd5.dfg vadd6.dfg vadd.dfg viterbi.dfg
+1.07 1.49 1.29 1.79 0.86 2.27 10.24 21.27 1.56 2.58 2.38 1.64 1.88 1.40 0.48 1.93 1.29 1.16 1.66 1.54 2.34  | 62.12
+1.07 1.49 1.29 1.79 0.86 2.27 10.24 21.27 1.56 2.58 2.38 1.64 1.88 1.40 0.48 1.93 1.29 1.16 1.66 1.54 2.34  | 62.12

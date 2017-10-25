@@ -1,0 +1,14 @@
+*.d
+src/gams_models/*.h
+build/
+*.swo
+*.swp
+*.swn
+drivers/sb_dfg_emu
+drivers/sb_sched
+drivers/stat-config
+dfgs/*/*.h
+gams/
+verif/
+viz/
+remap.dot
