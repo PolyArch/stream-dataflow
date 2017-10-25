@@ -28,12 +28,11 @@ create-insts: $(BINDIR)/compile-insts
 install-lib: $(BINDIR)/libsoftbrain-emu $(BINDIR)/libsoftbrain-emu-perf $(BINDIR)/libsoftbrain-emu-dbg
 
 mkdirs:
-	${MKDIR_P} ${SRCDIR}
 	${MKDIR_P} ${OBJDIR}
 	${MKDIR_P} ${BINDIR}
 	${MKDIR_P} ${INCLUDEDIR}
 
-install: install-lib
+install: mkdirs install-lib
 	${MKDIR_P} ${prefix}/lib
 	cp lib/* ${prefix}/lib
 	${MKDIR_P} ${prefix}/include/softbrain-lib
