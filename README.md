@@ -1,5 +1,14 @@
+# Repo Deprecated
+
+This content of this repo, including the stream-dataflow ISA implementation, has been moved to: 
+
+github.com/PolyArch/stream-specialization-stack
+
+The new repository contains example workloads, a compiler, and a gem5-based simulator.
+
+
 # stream-dataflow
-Public Release of Stream-Dataflow Infrastructure
+Stream-Dataflow Infrastructure
 
 This is the location of the public release of the infrastructure for the stream dataflow architecture.  
 Please keep in mind this is an early stage release, and more advanced features will follow.
